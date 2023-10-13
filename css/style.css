@@ -1,0 +1,625 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 1320px;
+	margin: 0 auto;
+}
+.clr{
+	clear: both;
+}
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+.title{
+	width: 150px;
+	margin: 0 auto;
+	color: #353535;
+}
+
+
+					/**============ Start header part ============**/
+header{
+	background: #0872b9;
+	padding: 12px 0;
+}
+header .header_text{
+	width: 50%;
+	float: left;
+}
+header .header_text p{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+header .header_icon{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+header .header_icon i{
+	color: #fff;
+	margin-right: 25px;
+	transition: .4s;
+}
+header .header_icon i#active{
+	color: #353535;
+}
+header .header_icon i:hover{
+	color: #353535;
+}
+					/**============ End header part ============**/
+
+
+
+					/**============ Start navbar part ============**/
+nav{
+	padding: 20px 0;
+}
+nav .nav_logo{
+	float: left;
+	width: 50%;
+}
+nav .nav_items{
+	float: left;
+	width: 50%;
+	padding: 14px 0;
+	text-align: right;
+}
+nav .nav_items ul a{
+	display: inline-block;
+	color: #353535;
+	margin-right: 15px;
+}
+nav .nav_items ul a li{
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	transition: .4s;
+}
+nav .nav_items ul a.active li{
+	color: #0872b9;
+}
+nav .nav_items ul a:hover li{
+	color: #0872b9;
+}
+					/**============ End navbar part ============**/
+
+
+
+					/**============ Start banner part ============**/
+#banner_part{
+	background: url(../images/banner.png) no-repeat center;
+	background-size: cover;
+}
+#banner_part .overlay{
+	background-color: rgb(0, 0, 0, 0.6);
+	height: 100%;
+	width: 100%;
+	padding: 88px 0;
+	text-align: right;
+	color: #fff;
+}
+
+#banner_part h3{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+}
+#banner_part h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+}
+#banner_part p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	width: 440px;
+	text-align: right;
+	color: #fff;
+	margin-left: auto;
+	margin-top: 30px;
+	line-height: 24px;
+}
+#banner_part .overlay .container a{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 30px;
+	display: inline-block;
+	margin-left: 20px;
+	padding: 10px 20px;
+	border: 1px solid #fff;
+	transition: .4s;
+}
+#banner_part .overlay .container a:hover{
+	background: #0872b9;
+	border: 1px solid #0872b9;
+}
+					/**============ End banner part ============**/
+
+
+
+					/**============ Start about part ============**/
+#about_part{
+	padding: 60px 0;
+}
+#about_part h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: -15px;
+}
+#about_part .title{
+	margin-bottom: 40px;
+}
+#about_part .main_part_img{
+	width: 30%;
+	float: left;
+	margin-right: 20px;
+}
+#about_part .main_part_text{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	float: left;
+	padding: 45px 0;
+	width: 68%;
+	color: #555555;
+}
+#about_part .main_part_text p{
+	margin-bottom: 40px;
+	width: 565px;
+}
+
+					/**============ End about part ============**/
+
+
+
+					/**============ Start service part ============**/
+
+#service-part h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: -15px;
+}
+#service-part .title{
+	margin-bottom: 70px;
+}
+#service-part .item{
+	background: #f1f1f1;
+	width: 28%;
+	float: left;
+	margin-right: 20px;
+	padding: 20px;
+	position: relative;
+	transition: .4s;
+}
+#service-part .item .shape{
+	background: #fff;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	transform: translate(-50% ,-50%);
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+#service-part .item .border_shape{
+	height: 75px;
+	width: 75px;
+	border: 1px solid #e1e1e1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	position: absolute;
+	border-radius: 50%;
+	background: transparent;
+	transition: .4s;
+}
+#service-part .item .shape .border_shape .icon_shape{
+	height: 70px;
+	width: 70px;
+	background: #f1f1f1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	position: absolute;
+	border-radius: 50%;
+	transition: .4s;
+}
+#service-part .item .border_shape .icon_shape img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+
+}
+#service-part .item h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	color: #353535;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+#service-part .item p{
+	margin-top: 20px;
+	text-align: center;
+	color: #555555;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	width: 260px;
+	margin-left: 50px;
+	line-height: 24px;
+}
+#service-part .item:hover{
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+}
+#service-part .item .border_shape:hover{
+	border-color: #5bc5f4;
+}
+#service-part .item .border_shape .icon_shape:hover{
+	background: #5bc5f4;
+}
+
+					/**============ End service part ============**/
+
+
+
+					/**============ Start portfolio part ============**/
+#portfolio-part{
+	padding: 60px 0;
+}
+#portfolio-part h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: -15px;
+}
+#portfolio-part .title{
+	margin-bottom: 40px;
+}
+#portfolio-part .main_part{
+	float: left;
+	width: 22%;
+	margin-right: 20px;
+}
+#portfolio-part .main_part .img{
+	position: relative;
+	margin-top: 20px;
+}
+#portfolio-part .main_part .img img{
+	display: block;
+	width: 100%;
+}
+#portfolio-part .main_part .img .overlay{
+	height: 0%;
+	width: 100%;
+	background: rgba(0, 0, 0,.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	transition: .4s;
+	opacity: 0;
+}
+#portfolio-part .main_part .img .overlay i{
+	color: #fff;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	/*background: #5bc5f4;*/
+	text-align: center;
+	border: 1px solid #fff;
+	position: absolute;
+	top: 50%;
+	transform: translateX(-50%);
+	transition: .4s;
+	cursor: pointer;
+	
+}
+#portfolio-part .main_part .img:hover .overlay{
+	height: 100%;
+	opacity: 1;
+}
+#portfolio-part .main_part .img .overlay i:hover{
+	background: #5bc5f4;
+	border: 1px solid #5bc5f4;
+}
+					/**============ End portfolio part ============**/
+
+
+
+					/**============ Start Team part ============**/
+
+#team-part h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: -15px;
+}
+#team-part .title{
+	margin-bottom: 70px;
+}
+#team-part .items{
+	float: left;
+	width: 22%;
+	margin-right: 20px;
+}
+#team-part .items .items-img{
+	position: relative;
+}
+#team-part .items .items-img img{
+	width: 100%;
+	display: block;
+}
+#team-part .items .items-img .overlay{
+	background: rgba(0, 0, 0, .6);
+	height: 100%;
+	width: 0%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	transition: .4s;
+	opacity: 0;
+}
+#team-part .items .items-img .overlay .overlay-icon{
+	text-align: center;
+	padding: 40px 0;
+}
+#team-part .items .items-img .overlay .overlay-icon i{
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin-top: 15px;
+	transition: .4s;
+	cursor: pointer;
+}
+#team-part .items .items-text h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	margin-top: 10px;
+	text-align: center;
+	color: #353535;
+}
+#team-part .items .items-text p{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 10px;
+	text-align: center;
+	color: #555555;
+}
+#team-part .items .items-img:hover .overlay{
+	height: 100%;
+	width: 80px;
+	opacity: 1;
+}
+#team-part .items .items-img .overlay .overlay-icon i:hover{
+	background: #5bc5f4;
+	border: 1px solid #5bc5f4;
+	opacity: 1;
+}
+#team-part .items:hover .items-text h1{
+	color: #5bc5f4;
+}
+					/**============ End Team part ============**/
+
+
+
+					/**============ Start Testimonial part ============**/
+#testi-part{
+	padding: 60px 0;
+}
+#testi-part h1{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: -15px;
+}
+#testi-part .title{
+	margin-bottom: 70px;
+}
+#testi-part .item{
+	width: 48%;
+	float: left;
+	margin-right: 20px;
+}
+#testi-part .item .item-img{
+	text-align: center;
+}
+#testi-part .item .item-box{
+	margin-top: 35px;
+	background: #f1f1f1;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+}
+#testi-part .item .item-box .shape{
+	height: 40px;
+	width: 40px;
+	background: #f1f1f1;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%,-50%) rotate(45deg);
+}
+#testi-part .item .item-box h1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+}
+#testi-part .item .item-box .icon{
+	color: #5bc5f4;
+}
+#testi-part .item .item-box p{
+	margin: 10px 0 10px 100px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	width: 435px;
+}
+					/**============ End Testimonial part ============**/
+
+
+
+					/**============ Start Footer part ============**/
+footer{
+	background: #353535;
+	width: 100%;
+	padding: 20px 40px;
+}
+footer .footer-title p{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #fff;
+}
+footer .footer-part{
+	width: 100%;
+}
+footer .footer-logo-part{
+	width: 22%;
+	float: left;
+	margin-right: 20px;
+}
+footer .footer-logo-part .footer_text p{
+	margin-top: 30px;
+	margin-bottom: 5px;
+	color: #f1f1f1;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+}
+footer .footer-contact-part{
+	width: 22%;
+	float: left;
+	margin-right: 20px;
+}
+footer .footer-contact-part .contact{
+	margin-top: 40px;
+}
+footer .footer-contact-part .contact .contact-icon{
+	width: 20%;
+	margin-bottom: 20px;
+}
+footer .footer-contact-part .contact .contact-icon i{
+	float: left;
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 50%;
+	background: #5bc5f4;
+	color: #fff;
+}
+footer .footer-contact-part .contact .contact-text{
+	float: left;
+	width: 80%;
+	color: #f1f1f1;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+footer .footer-contact-part .contact .contact-text p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+}
+footer .footer-links-part{
+	width: 22%;
+	float: left;
+	margin-right: 20px;
+} 
+footer .footer-links-part .links ul{
+	margin: 20px 35px 0 0;
+	float: left;
+}
+footer .footer-links-part .links ul li{
+	margin-bottom: 15px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	transition: .4s;
+}
+footer .footer-flickr-part{
+	width: 25%;
+	float: left;
+}
+footer .footer-flickr-part .flickr-photos{
+	margin-top: 20px;
+}
+footer .footer-flickr-part .flickr-photos img{
+	margin: 0 15px 15px 0;
+}
+footer .footer-links-part ul li:hover{
+	color: #5bc5f4;
+}
+					/**============ End Footer part ============**/
+
+
+
+					/**============ Start Footer part ============**/
+.footer-bottom{
+	background: #555555;
+	width: 100%;
+	padding: 30px 0;
+}
+.footer-bottom .footer-bottom-left{
+	float: left;
+	margin-left: 450px;
+}
+.footer-bottom .footer-bottom-left p{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	margin-right: 5px;
+}
+.footer-bottom .footer-bottom-right{
+	float: left;
+}
+.footer-bottom .footer-bottom-right p{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	margin-right: 5px;
+	transition: .4s;
+}
+.footer-bottom .footer-bottom-right p:hover{
+	color: #5bc5f4;
+}
+					/**============ End Footer part ============**/
